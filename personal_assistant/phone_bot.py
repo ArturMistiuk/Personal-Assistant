@@ -2,8 +2,8 @@ from prompt_toolkit import prompt
 from prompt_toolkit.completion import NestedCompleter
 from pathlib import Path
 import pickle
-from phone_book import ContactBook, Name, Contact
-from exception import input_error
+from .phone_book import ContactBook, Name, Contact
+from .exception import input_error
 
 p = Path("phone_data.bin")
 phone_book = ContactBook()

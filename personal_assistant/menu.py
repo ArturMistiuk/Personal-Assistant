@@ -1,8 +1,8 @@
-from files_manager import main as sorting_manager
-from note_book import main as notes_manager
-from phone_bot import main as phone_book_manager
+from .files_manager import main as sorting_manager
+from .note_book import main as notes_manager
+from .phone_bot import main as phone_book_manager
 from prettytable import PrettyTable
-from weather import main as weather_manager
+from .weather import main as weather_manager
 
 
 logo = 'Welcome to Personal Assistant!'
