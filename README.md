@@ -1,4 +1,4 @@
-s## Personal Assistant by PySoft
+# Personal Assistant by PySoft
 
 The project was elaborated with the purpose to improve personal planning routines in order to effectively manage all daily tasks.
 It is exclusively based on the command line interface.
